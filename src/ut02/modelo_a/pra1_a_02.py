@@ -1,6 +1,5 @@
 from pathlib import Path
 import subprocess
-import sys
 
 script = Path("src/scripts/hijo_pipe.py")
 

@@ -1,6 +1,5 @@
 from pathlib import Path
 import subprocess
-import sys
 
 script = Path("src/scripts/hijo_tarea.py")
 tareas = [("A-01", 12, False), ("A-02", 7, True), ("A-03", 5, False)]
