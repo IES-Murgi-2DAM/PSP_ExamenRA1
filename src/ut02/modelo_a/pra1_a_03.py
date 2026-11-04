@@ -7,3 +7,10 @@ procesos = []
 
 # TODO: construir y lanzar todos los Popen antes de recoger resultados.
 # TODO: recopilar stdout, stderr y returncode; continuar aunque uno falle.
+
+
+for id, valor, exito in tareas:
+
+    proceso = subprocess.Popen(["--id", id, "--valor" str(valor), "--exito", exito, "--retardo-ms" 200], text=True)
+
+        
